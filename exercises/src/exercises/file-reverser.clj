@@ -2,10 +2,10 @@
   (:require [clojure.string :as string]))
 
 (defn file-reverser
-  [path]
-  (->> (slurp (str "src/exercises/" path))
+  [dir file]
+  (->> (slurp (str dir file))
        (string/reverse)
        (apply str)
-       (spit (str "src/exercises/" "rev-" path))))
+       (spit (str dir "rev-" file))))
 
-(file-reverser "file-reverser-test.txt")
+(file-reverser "src/exercises/" "file-reverser-test.txt")
