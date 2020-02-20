@@ -1,4 +1,4 @@
-(ns exercises.check-triangle
+(ns exercises.clamp
   (:require [clojure.test :refer [is]]))
 
 (defn clamp

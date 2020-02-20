@@ -1,4 +1,4 @@
-(ns exercises.check-triangle
+(ns exercises.classify-triangle
   (:require [clojure.test :refer [is]]))
 
 (defn triangle?

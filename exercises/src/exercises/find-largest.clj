@@ -1,4 +1,4 @@
-(ns exercises.check-triangle
+(ns exercises.find-largest
   (:require [clojure.test :refer [is]]))
 
 (defn largest

@@ -1,4 +1,4 @@
-(ns exercises.check-triangle
+(ns exercises.count-if
   (:require [clojure.test :refer [is]]))
 
 (defn count-if

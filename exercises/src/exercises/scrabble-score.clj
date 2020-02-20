@@ -1,4 +1,4 @@
-(ns exercises.check-triangle
+(ns exercises.scrabble-score
   (:require [clojure.test :refer [is]])
   (:require [clojure.string :as str]))
 

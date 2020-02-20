@@ -1,4 +1,4 @@
-(ns exercises.check-triangle
+(ns exercises.get-and-set
   (:require [clojure.test :refer [is]]))
 
 (defn get-and-set
