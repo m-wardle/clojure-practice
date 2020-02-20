@@ -1,6 +1,5 @@
 (ns exercises.file-reverser
-  (:require [clojure.string :as string])
-  (:require [clojure.java.io :as io]))
+  (:require [clojure.string :as string]))
 
 (defn file-reverser
   [path]
